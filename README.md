@@ -17,3 +17,13 @@ Train dataset is not open source. Please contact us to download.
 - Put the VR simulation video frames in folder `test`. We have provided some video frames here. 
 - Open `main.py`. Change the path to the `.ckpt` files in the `checkpoints` folder that you want to test. Make sure you pass `False` to argument `training` and  `True` to argument `testing`. 
 - Run this file to start testing. The style transferred outputs are stored in folder `results`.
+
+# Video Transfer
+- Change the output picture in 'test.py' and make it only include 'y_fake_test'. Rerun the test.
+- Open 'videotransfer.py'. Change the path to the certain place for the results and run it to get the video.
+
+
+# Gatys
+- Open 'Gatys.ipynb' and change the corresponding paths of content images and style images.
+- Run it to get a set of transferred images.
+- Then we can use the 'videotransfer.py' to get the results video.
