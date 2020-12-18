@@ -26,4 +26,4 @@ Train dataset is not open source. Please contact us to download.
 # Gatys
 - Open 'Gatys.ipynb' and change the corresponding paths of content images and style images.
 - Run it to get a set of transferred images.
-- Then we can use the 'videotransfer.py' to get the results video.
+- Then we can use the 'videotransfer.py' to get the result video.
